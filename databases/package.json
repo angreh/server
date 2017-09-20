@@ -1,0 +1,17 @@
+{
+  "name": "databases",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Angreh ( angreh@gmail.com )",
+  "license": "ISC",
+  "dependencies": {
+    "mysql2": "^1.4.2",
+    "sequelize": "^4.8.4",
+    "sequelize-cli": "^3.0.0-3",
+    "sequelizer": "^1.1.3"
+  }
+}

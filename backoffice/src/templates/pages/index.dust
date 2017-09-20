@@ -1,0 +1,7 @@
+{>"layouts/base"/}
+
+{<body}
+
+	Aloha dust {products}
+
+{/body}

@@ -1,0 +1,7 @@
+backoffice: 	3000
+files: 		5000
+frontends:	5050
+admin:		6060
+apis
+	store:	4000
+	events: 4001

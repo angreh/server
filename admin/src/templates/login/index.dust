@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{title}</title>
+</head>
+<body>
+
+	<div class="container" id="login">
+
+		<h1>Login</h1>
+		{#flash}
+			<blockquote class="{type}">
+				{msg}
+			</blockquote>
+		{/flash}
+
+		<hr>
+
+		<form method="post">
+
+			<div class="input-field">
+				<label for="username">Username:</label>
+				<input placeholder='insert username' id="username" name="username" type="text">
+			</div>
+
+			<div class="input-field">
+				<label for="password">Password:</label>
+				<input placeholder='password' id="password" name="password" type="password">
+			</div>
+
+			<br>
+			<div class="form-buttons">
+				<button type="submit" class="submit">Login</button>
+			</div>
+		</form>
+
+	</div><!-- #login.container -->
+
+</body>
+</html>
